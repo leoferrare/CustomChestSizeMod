@@ -1,0 +1,21 @@
+{
+  "Changes": [
+    {
+      "LogName": "Add Enormous Chest Shop Entry",
+      "Action": "EditData",
+      "Target": "Data/Shops",
+      "TargetField": [
+        "Carpenter",
+        "Items"
+      ],
+      "Entries": {
+        "Darkiriq30.EnormousChest": {
+          "Id": "Darkiriq30.EnormousChest",
+          "ItemId": "(BC)Darkiriq30.EnormousChest",
+          "Price": 10000,
+          "IsRecipe": true
+        }
+      }
+    }
+  ]
+}

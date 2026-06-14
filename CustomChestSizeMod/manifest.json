@@ -1,0 +1,10 @@
+{
+  "Name": "Custom Chest Size Mod",
+  "Author": "Darkiriq30",
+  "Version": "1.0.0",
+  "Description": "Allows custom chests to specify dynamic capacities beyond vanilla limits via custom fields.",
+  "UniqueID": "Darkiriq30.CustomChestSizeMod",
+  "EntryDll": "CustomChestSizeMod.dll",
+  "MinimumApiVersion": "4.0.0",
+  "$schema": "https://smapi.io/schemas/manifest.json"
+}

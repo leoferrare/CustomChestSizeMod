@@ -1,0 +1,24 @@
+{
+  "Format": "2.9.0",
+  "Changes": [
+    // Register custom texture asset in the game
+    {
+      "LogName": "Load Enormous Chest Texture",
+      "Action": "Load",
+      "Target": "Darkiriq30.EnormousChest/Texture",
+      "FromFile": "assets/EnormousChest.png"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "data/bigcraftables.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "data/recipes.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "data/shops.json"
+    }
+  ]
+}

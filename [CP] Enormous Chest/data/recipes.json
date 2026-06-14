@@ -1,0 +1,12 @@
+{
+  "Changes": [
+    {
+      "LogName": "Add Enormous Chest Crafting Recipe",
+      "Action": "EditData",
+      "Target": "Data/CraftingRecipes",
+      "Entries": {
+        "Darkiriq30.EnormousChest": "388 150 709 20 335 4 769 10/Field/Darkiriq30.EnormousChest/true/default/{{i18n: EnormousChest.name}}"
+      }
+    }
+  ]
+}

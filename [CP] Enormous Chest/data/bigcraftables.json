@@ -1,0 +1,27 @@
+{
+  "Changes": [
+    {
+      "LogName": "Add Enormous Chest Object",
+      "Action": "EditData",
+      "Target": "Data/BigCraftables",
+      "Entries": {
+        "Darkiriq30.EnormousChest": {
+          "Name": "Enormous Chest",
+          "DisplayName": "{{i18n: EnormousChest.name}}",
+          "Description": "{{i18n: EnormousChest.description}}",
+          "Texture": "Darkiriq30.EnormousChest/Texture",
+          "ContextTags": [
+            "swappable_chest"
+          ],
+          "CustomFields": {
+            "furyx639.ExpandedStorage/Enabled": "true",
+            "furyx639.ExpandedStorage/Frames": "6",
+            "furyx639.ExpandedStorage/OpenSound": "openChest",
+            "furyx639.ExpandedStorage/PlayerColor": "true",
+            "Darkiriq30.CustomChestSizeMod/Capacity": "120"
+          }
+        }
+      }
+    }
+  ]
+}
