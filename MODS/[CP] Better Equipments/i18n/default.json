@@ -1,20 +1,17 @@
 {
-  "Adventurer'sPrismaticRing.name": "Adventurer's Prismatic Ring",
-  "Adventurer'sPrismaticRing.description": "A ring radiating with prismatic energy.",
-  
-  
+  // Categories :
+  "category.shoes": "Shoes",
+  "category.rings": "Rings",
+  // Machines :
+  "SewingMachine.name": "Sewing Machine",
+  "SewingMachine.description": "A sewing machine.",
+  // Desc :
+  "AdventurersPrismaticRing.name": "Adventurer's Prismatic Ring",
+  "AdventurersPrismaticRing.description": "A ring radiating with prismatic energy.",
   "WingedBoots.name": "Winged Boots",
   "WingedBoots.description": "Boots forged from prismatic shards.",
-
-
   "Volcano'sPrismaticRing.name": "Volcano's Prismatic Ring",
   "Volcano'sPrismaticRing.description": "A ring radiating with prismatic energy.",
-
-
   "CloudShoes.name": "Cloud Shoes",
   "CloudShoes.description": "Shoes forged from prismatic shards."
-
-
 }
-
-

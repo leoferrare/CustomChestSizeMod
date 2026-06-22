@@ -1,24 +1,17 @@
 {
-  "Adventurer'sPrismaticRing.name": "Anneau prismatique",
-  "Adventurer'sPrismaticRing.description": "Un anneau rayonnant d'énergie prismatique.",
-
-
-
-
+  // Categories :
+  "category.shoes": "Chaussures",
+  "category.rings": "Anneaux & bagues",
+  // Machines :
+  "SewingMachine.name": "Machine à coudre",
+  "SewingMachine.description": "Une machine à coudre.",
+  // Desc :
+  "AdventurersPrismaticRing.name": "Anneau prismatique",
+  "AdventurersPrismaticRing.description": "Un anneau rayonnant d'énergie prismatique.",
   "WingedBoots.name": "Bottes prismatiques",
-  "WingedBoots.description": "Ces chaussures ont été inventés pour être à l’origine d’un nouveau mythe guerrier. Defence, attaque, efficacité, un mélange d’énergie guerrière qui attire le combat à lui.
-",
-
-
-
-
+  "WingedBoots.description": "Ces chaussures ont été inventés pour être à l’origine d’un nouveau mythe guerrier. Defence, attaque, efficacité, un mélange d’énergie guerrière qui attire le combat à lui.",
   "Volcano'sPrismaticRing.name": "Volcano's Prismatic Ring",
   "Volcano'sPrismaticRing.description": "A ring radiating with prismatic energy.",
-
-
-
-
   "CloudShoes.name": "Cloud Shoes",
-  "CloudShoes.description": "Ces chaussures d’une delicatesse sans nom sont le produit d’un savoir faire durement gagné, elles font paraitre plus leger et habile. De quoi avoir un quotidien plus joyeux et tendre
-"
+  "CloudShoes.description": "Ces chaussures d’une delicatesse sans nom sont le produit d’un savoir faire durement gagné, elles font paraitre plus leger et habile. De quoi avoir un quotidien plus joyeux et tendre"
 }

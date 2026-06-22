@@ -1,0 +1,90 @@
+{
+  "Changes": [
+    {
+      "LogName": "Load Sewing Machine texture",
+      "Action": "Load",
+      "Target": "Darkiriq30.BetterEquipments/SewingMachine",
+      "FromFile": "assets/machines/Sewing_Machine.png"
+    },
+    {
+      "LogName": "Create Sewing Machine Big Craftable",
+      "Action": "EditData",
+      "Target": "Data/BigCraftables",
+      "Entries": {
+        "{{ModId}}_SewingMachine": {
+          "Name": "{{ModId}}_SewingMachine",
+          "DisplayName": "{{i18n:SewingMachine.name}}",
+          "Description": "{{i18n:SewingMachine.description}}",
+          "Texture": "Darkiriq30.BetterEquipments/SewingMachine",
+          "ContextTags": [
+            "machine_item"
+          ]
+        }
+      }
+    },
+    {
+      "LogName": "Register Sewing Machine Crafting Recipe",
+      "Action": "EditData",
+      "Target": "Data/CraftingRecipes",
+      "Entries": {
+        "{{ModId}}_SewingMachine": "390 2/Field/{{ModId}}_SewingMachine/true/default/{{i18n:SewingMachine.name}}"
+      }
+    },
+    {
+      "LogName": "Create Sewing Machine Crafting Menu Station",
+      "Action": "EditData",
+      "Target": "Mods/leclair.bettercrafting/CraftingStations",
+      "Entries": {
+        "{{ModId}}_SewingMachineCraft": {
+          "Id": "{{ModId}}_SewingMachineCraft",
+          "DisplayName": "{{i18n:SewingMachine.name}}",
+          "AreRecipesExclusive": true,
+          "Recipes": [
+            "{{ModId}}_WingedBoots_recipe",
+            "{{ModId}}_AdventurersPrismaticRing_recipe"
+          ],
+          "Categories": [
+            // Shoes category :
+            {
+              "Id": "category_shoes",
+              "Name": "{{i18n:category.shoes}}",
+              "Icon": {
+                "Type": "Item",
+                "ItemId": "(B){{ModId}}_WingedBoots"
+              },
+              "Recipes": [
+                "{{ModId}}_WingedBoots_recipe"
+              ],
+              "IncludeInMisc": false
+            },
+            // Rings category :
+            {
+              "Id": "category_rings",
+              "Name": "{{i18n:category.rings}}",
+              "Icon": {
+                "Type": "Item",
+                "ItemId": "(O){{ModId}}_AdventurersPrismaticRing"
+              },
+              "Recipes": [
+                "{{ModId}}_AdventurersPrismaticRing_recipe"
+              ],
+              "IncludeInMisc": false
+            }
+          ]
+        }
+      }
+    },
+    {
+      "LogName": "Register Sewing Machine CustomField Action",
+      "Action": "EditData",
+      "Target": "Data/BigCraftables",
+      "TargetField": [
+        "{{ModId}}_SewingMachine",
+        "CustomFields"
+      ],
+      "Entries": {
+        "leclair.bettercrafting_PerformAction": "leclair.bettercrafting_OpenMenu FALSE TRUE {{ModId}}_SewingMachineCraft"
+      }
+    }
+  ]
+}

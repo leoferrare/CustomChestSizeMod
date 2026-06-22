@@ -1,0 +1,60 @@
+{
+  "Changes": [
+    // Add recipes for crafting :
+    {
+      "Action": "EditData",
+      "Target": "Mods/leclair.bettercrafting/Recipes",
+      "Entries": {
+        "{{ModId}}_WingedBoots_recipe": {
+          "DisplayName": "{{i18n:WingedBoots.name}}",
+          "Description": "{{i18n:WingedBoots.description}}",
+          "Default": true,
+          "AllowRecycling": false,
+          "Ingredients": [
+            {
+              "Id": "wingedboot.sneakers",
+              "ItemID": "(B)504",
+              "Quantity": 1
+            },
+            {
+              "Id": "wingedboots.rabbit_foot",
+              "ItemID": "446",
+              "Quantity": 4
+            },
+            {
+              "Id": "wingedboot.wool",
+              "ItemID": "440",
+              "Quantity": 4
+            },
+            {
+              "Id": "wingedboot.lunarite",
+              "ItemID": "551",
+              "Quantity": 4
+            },
+            {
+              "Id": "wingedboot.prismatic_shard",
+              "ItemID": "74",
+              "Quantity": 1
+            },
+            {
+              "Id": "wingedboot.solar_essence",
+              "ItemID": "768",
+              "Quantity": 100
+            },
+            {
+              "Id": "wingedboot.pearl",
+              "ItemID": "797",
+              "Quantity": 1
+            }
+          ],
+          "Output": [
+            {
+              "Id": "output.wingedboots",
+              "ItemId": "(B){{ModId}}_WingedBoots"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

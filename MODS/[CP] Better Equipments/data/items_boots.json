@@ -1,0 +1,32 @@
+{
+  "Changes": [
+    {
+      "LogName": "Load Winged Boots Texture",
+      "Action": "Load",
+      "Target": "Darkiriq30.BetterEquipments/WingedBoots",
+      "FromFile": "assets/WingedBoots.png"
+    },
+    {
+      "LogName": "Register Winged Boots",
+      "Action": "EditData",
+      "Target": "Data/Boots",
+      "Entries": {
+        "{{ModId}}_WingedBoots": "{{ModId}}_WingedBoots/{{i18n:WingedBoots.description}}/0/6/6/0/{{i18n:WingedBoots.name}}/Characters\\Farmer\\shoeColors/0/Darkiriq30.BetterEquipments\\WingedBoots"
+      }
+    },
+    {
+      "LogName": "Load Cloud shoes Texture",
+      "Action": "Load",
+      "Target": "Darkiriq30.BetterEquipments/CloudShoes",
+      "FromFile": "assets/Cloud_shoes.png"
+    },
+    {
+      "LogName": "Register Cloud Shoes",
+      "Action": "EditData",
+      "Target": "Data/Boots",
+      "Entries": {
+        "{{ModId}}_CloudShoes": "Cloud Shoes/{{i18n:CloudShoes.description}}/0/6/6/0/{{i18n:CloudShoes.name}}/Characters\\Farmer\\shoeColors/0/Darkiriq30.BetterEquipments\\CloudShoes"
+      }
+    }
+  ]
+}

@@ -2,14 +2,34 @@
   "Format": "2.9.0",
   "Changes": [
     // Include prismatic ring data and texture load
+    // {
+    //   "Action": "Include",
+    //   "FromFile": "data/prismatic_ring.json"
+    // },
     {
+      "LogName": "Include prismatic boots data and texture load",
       "Action": "Include",
-      "FromFile": "data/prismatic_ring.json"
+      "FromFile": "data/items_boots.json"
     },
-    // Include prismatic boots data and texture load
     {
+      "LogName": "Include Rings data and texture load",
       "Action": "Include",
-      "FromFile": "data/prismatic_boots.json"
+      "FromFile": "data/items_rings.json"
+    },
+    {
+      "LogName": "Include Boots Recipes",
+      "Action": "Include",
+      "FromFile": "data/recipes/boots_recipes.json"
+    },
+    {
+      "LogName": "Include Rings Recipes",
+      "Action": "Include",
+      "FromFile": "data/recipes/rings_recipes.json"
+    },
+    {
+      "LogName": "Include custom sewing machine crafting station data",
+      "Action": "Include",
+      "FromFile": "data/machines/sewing_machine.json"
     }
   ]
 }

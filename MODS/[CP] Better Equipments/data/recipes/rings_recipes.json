@@ -1,0 +1,60 @@
+{
+  "Changes": [
+    // Add recipes for crafting :
+    {
+      "Action": "EditData",
+      "Target": "Mods/leclair.bettercrafting/Recipes",
+      "Entries": {
+        "{{ModId}}_AdventurersPrismaticRing_recipe": {
+          "DisplayName": "{{i18n:AdventurersPrismaticRing.name}}",
+          "Description": "{{i18n:AdventurersPrismaticRing.description}}",
+          "Default": true,
+          "AllowRecycling": false,
+          "Ingredients": [
+            {
+              "Id": "AdventurersPrismaticRing.sneakers",
+              "ItemID": "(B)504",
+              "Quantity": 1
+            },
+            {
+              "Id": "AdventurersPrismaticRing.rabbit_foot",
+              "ItemID": "446",
+              "Quantity": 4
+            },
+            {
+              "Id": "AdventurersPrismaticRing.wool",
+              "ItemID": "440",
+              "Quantity": 4
+            },
+            {
+              "Id": "AdventurersPrismaticRing.lunarite",
+              "ItemID": "551",
+              "Quantity": 4
+            },
+            {
+              "Id": "AdventurersPrismaticRing.prismatic_shard",
+              "ItemID": "74",
+              "Quantity": 1
+            },
+            {
+              "Id": "AdventurersPrismaticRing.solar_essence",
+              "ItemID": "768",
+              "Quantity": 100
+            },
+            {
+              "Id": "AdventurersPrismaticRing.pearl",
+              "ItemID": "797",
+              "Quantity": 1
+            }
+          ],
+          "Output": [
+            {
+              "Id": "output.AdventurersPrismaticRing",
+              "ItemId": "(O){{ModId}}_AdventurersPrismaticRing"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
